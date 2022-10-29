@@ -1,6 +1,5 @@
 var app = angular.module('app', []);
-var api = 'https://blooming-woodland-81741.herokuapp.com';
-// var api = 'http://localhost:5000';
+var api = 'http://localhost:8080';
 
 app.controller('BigFiveController', function($scope, $http, $window) {
 
